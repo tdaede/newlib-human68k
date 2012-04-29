@@ -895,6 +895,9 @@ case "${target}" in
   m68k-*-coff*)
     noconfigdirs="$noconfigdirs ${libgcj}"
     ;;
+  m68k-*-human68k*)
+    noconfigdirs="$noconfigdirs target-libgloss ${libgcj}"
+    ;;
   m68*-*-* | fido-*-*)
     libgloss_dir=m68k
     ;;

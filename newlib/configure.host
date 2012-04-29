@@ -456,6 +456,9 @@ case "${host}" in
   m68k-sun-sunos*)
 	unix_dir=unix
 	;;
+  m68k-*-human68k*)
+  	sys_dir=human68k
+	;;
   m8*-bug-*)
 	sys_dir=m88kbug
 	;;
